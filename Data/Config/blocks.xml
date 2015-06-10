@@ -409,44 +409,7 @@
 		<property name="DropScale" value="2" />
 	</block>
 
-	<block id="100" name="Apple1m">
-		<property name="Class" value="ModelTree" />
-		<property name="Material" value="wood_weak" />
-		<property name="Shape" value="ModelEntity" />
-		<property name="Texture" value="116" />
-		<property name="Tag" value="TreeTrunk" />
-		<property name="Collide" value="melee" />
-		<property name="BigDecorationRadius" value="1" />
-		<property name="Model" value="Entities/Trees/Prefabs/MountainPine1mPrefab" />
-		<property name="UpwardsCount" value="0" />
-		<property name="IsPlant" value="true" />
-		<property name="ParticleOnDeath" value="treeGib_burnt" />
-		<property class="PlantGrowing">
-			<property name="Next" value="Apple16m" />
-			<property name="GrowthRate" value="60" />
-			<property name="FertileLevel" value="1" />
-			<property name="IsRandom" value="false" />
-		</property>
-		<drop event="Destroy" name="appleSeed" count="1" prob="1" />
-	</block>
-
-
-	<block id="101" name="Apple16m">
-		<property name="Class" value="ModelTree" />
-		<property name="Material" value="wood+wood" />
-		<property name="Shape" value="ModelEntity" />
-		<property name="Texture" value="116" />
-		<property name="Tag" value="TreeTrunk" />
-		<property name="BigDecorationRadius" value="4" />
-		<property name="Model" value="Entities/Trees/Maple81Prefab" />
-		<property name="UpwardsCount" value="8" />
-		<property name="IsPlant" value="true" />
-		<property name="ParticleOnDeath" value="treeGib_burnt" />
-		<property name="ModelOffset" value="0,-1.2,0" />
-		<drop event="Destroy" name="trunkPine" count="6" prob="1" />
-		<drop event="Destroy" name="appleSeed" count="7,11" prob=".5" />
-	</block>
-	<block id="102" name="mushroom01">
+	<block id="100" name="mushroom01">
 		<property name="Class" value="CropsGrown" />
 		<property name="Material" value="dirt" />
 		<property name="Shape" value="Ext3dModel" />
@@ -457,7 +420,7 @@
 		<drop event="Destroy" count="0" />
 		<drop event="Harvest" name="mushrooms" count="1" />
 	</block>
-	<block id="103" name="mushroom02">
+	<block id="101" name="mushroom02">
 		<property name="Class" value="CropsGrown" />
 		<property name="Material" value="dirt" />
 		<property name="Shape" value="Ext3dModel" />
@@ -467,7 +430,7 @@
 		<property name="Model" value="OutdoorDecor/mushroom02" param1="main_mesh" />
 		<drop event="Harvest" name="mushrooms" count="1" />
 	</block>
-	<block id="104" name="mushroom012">
+	<block id="102" name="mushroom012">
 		<property name="Class" value="CropsGrown" />
 		<property name="Material" value="dirt" />
 		<property name="Shape" value="Ext3dModel" />
@@ -478,7 +441,7 @@
 		<drop event="Destroy" count="0" />
 		<drop event="Harvest" name="Mushrooms" count="1" />
 	</block>
-	<block id="105" name="mushroom022">
+	<block id="103" name="mushroom022">
 		<property name="Class" value="CropsGrown" />
 		<property name="Material" value="dirt" />
 		<property name="Shape" value="Ext3dModel" />
@@ -488,7 +451,7 @@
 		<property name="Model" value="OutdoorDecor/mushroom02" param1="main_mesh" />
 		<drop event="Harvest" name="Mushrooms" count="1" />
 	</block>
-	<block id="106" name="blueberry2">
+	<block id="104" name="blueberry2">
 		<property name="Class" value="CropsGrown" />
 		<property name="Material" value="plants" />
 		<property name="Shape" value="BillboardPlant" />
