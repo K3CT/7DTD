@@ -9,10 +9,12 @@
 <!--Gaia-->
 	<item name="cabbage" />
 	<item name="cabbage_seed" />
-	<item name="Tomato_Seed" />
-	<item name="Cucumber_Seed" />
-	<item name="Cucumber" />
 	<item name="Tomato" />
+	<item name="Tomato_Seed" />
+	<item name="Cucumber" />
+	<item name="Cucumber_Seed" />
+	<item name="Strawberry" />
+	<item name="Strawberry_Seed" />
 <!--Eat-->
 <!--Medic-->
 <!--Store-->
