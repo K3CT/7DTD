@@ -12,6 +12,48 @@
     <recipe name="strawberry_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="strawberry" count="1" grid="0, 0"/>
     </recipe>
+    <recipe name="jamberry_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="jamberry" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="onion_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="onion" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="onionChives_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="onionChives" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="raspberry_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="raspberry" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="carrots_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="carrots" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="olives_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="olives" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="pepper_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="pepper" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="pepperСhili_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="pepperСhili" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="wheat_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="wheat" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="radish_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="radish" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="beet_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="beet" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="currant_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="currant" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="garlic_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="garlic" count="1" grid="0, 0"/>
+    </recipe>
+    <recipe name="sweetbrier_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="sweetbrier" count="1" grid="0, 0"/>
+    </recipe>
 
     <recipe name="porkCharred" count="1" scrapable="False" craft_area="campfire" craft_tool="stick" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="pork" count="1"/>
