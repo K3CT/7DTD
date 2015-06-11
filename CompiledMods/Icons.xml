@@ -1451,6 +1451,7 @@
   <item name="yellowflower" x="2320" y="3280" w="116" h="80" />
   <item name="yuccaFibers" x="2436" y="3280" w="116" h="80" />
   <!--Plus-->
+  <!--Ore-->
   <item name="stone" x="0" y="4000" w="116" h="80" />
   <item name="coalOre" x="0" y="4080" w="116" h="80" />
   <item name="copperOre" x="116" y="4080" w="116" h="80" />
@@ -1471,4 +1472,9 @@
   <item name="quarzOre" x="1856" y="4080" w="116" h="80" />
   <item name="apatiteOre" x="1972" y="4080" w="116" h="80" />
   <item name="titanOre" x="2088" y="4080" w="116" h="80" />
+  <!--Gaia-->
+  <item name="Strawberry" x="0" y="5840" w="116" h="80" />
+  <item name="Cabbage" x="1856" y="5840" w="116" h="80" />
+  <item name="Cucumber" x="2088" y="5840" w="116" h="80" />
+  <item name="Tomato" x="2204" y="5840" w="116" h="80" />
 </items>

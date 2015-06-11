@@ -39,8 +39,8 @@
 		
 		<!-- Speciality properties -->
 		<property name="DropInventoryBlock"	value="backpackDropped" />
-		<property name="ItemsOnEnterGame.GameModeSurvivalSP"	value="bottledWater,canChili,firstAidBandage,torch" />
-		<property name="ItemsOnEnterGame.GameModeSurvivalMP" 	value="bottledWater,canChili,firstAidBandage,torch,keystone" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP"	value="bottledWater,bed01,Admin_tool_1,Admin_tool_2,Admin_tool_3,Cabbage" />
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" 	value="bottledWater,bed01,Admin_tool_1,Admin_tool_2,Admin_tool_3,Cabbage" />
 		
 		
 		<property name="UMA.EquipmentSlot.Head" value="0" param1="male_base_face" param2="male_head" />
