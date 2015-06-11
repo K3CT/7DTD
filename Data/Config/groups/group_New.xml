@@ -8,13 +8,41 @@
 <!--Tools-->
 <!--Gaia-->
 	<item name="cabbage" />
-	<item name="cabbage_seed" />
-	<item name="Tomato" />
-	<item name="Tomato_Seed" />
-	<item name="Cucumber" />
-	<item name="Cucumber_Seed" />
-	<item name="Strawberry" />
-	<item name="Strawberry_Seed" />
+	<item name="cabbage_Seed" />
+	<item name="tomato" />
+	<item name="tomato_Seed" />
+	<item name="cucumber" />
+	<item name="cucumber_Seed" />
+	<item name="strawberry" />
+	<item name="strawberry_Seed" />
+	<item name="jamberry" />
+	<item name="jamberry_Seed" />
+	<item name="onion" />
+	<item name="onion_Seed" />
+	<item name="onionChives" />
+	<item name="onionChives_Seed" />
+	<item name="raspberry" />
+	<item name="raspberry_Seed" />
+	<item name="carrots" />
+	<item name="carrots_Seed" />
+	<item name="olives" />
+	<item name="olives_Seed" />
+	<item name="pepper" />
+	<item name="pepper_Seed" />
+	<item name="pepperСhili" />
+	<item name="pepperСhili_Seed" />
+	<item name="wheat" />
+	<item name="wheat_Seed" />
+	<item name="radish" />
+	<item name="radish_Seed" />
+	<item name="beet" />
+	<item name="beet_Seed" />
+	<item name="currant" />
+	<item name="currant_Seed" />
+	<item name="garlic" />
+	<item name="garlic_Seed" />
+	<item name="sweetbrier" />
+	<item name="sweetbrier_Seed" />
 <!--Eat-->
 <!--Medic-->
 <!--Store-->

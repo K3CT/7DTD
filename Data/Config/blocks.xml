@@ -487,8 +487,8 @@
 		<property name="Texture" value="298" />
 		<property name="Collide" value="melee" />
 		<property name="IsTerrainDecoration" value="true" />
-		<drop event="Destroy" name="Сabbage" count="2" prob="0.8" />
-		<drop event="Harvest" name="Сabbage" count="4,10" />
+		<drop event="Destroy" name="cabbage" count="2" prob="0.8" />
+		<drop event="Harvest" name="cabbage" count="4,10" />
 	</block>
 	<block id="107" name="cucumber1">
 		<property name="Class" value="PlantGrowing" />
@@ -500,7 +500,7 @@
 		<property name="IsTerrainDecoration" value="true" />
 		<drop event="Destroy" count="0" />
 		<property class="PlantGrowing">
-			<property name="Next" value="cabbage2" />
+			<property name="Next" value="cucumber2" />
 			<property name="GrowthRate" value="60" />
 			<property name="FertileLevel" value="5" />
 			<property name="IsRandom" value="false" />
@@ -514,8 +514,8 @@
 		<property name="Texture" value="298" />
 		<property name="Collide" value="melee" />
 		<property name="IsTerrainDecoration" value="true" />
-		<drop event="Destroy" name="Cucumber" count="2" prob="0.8" />
-		<drop event="Harvest" name="Cucumber" count="3,6" />
+		<drop event="Destroy" name="cucumber" count="2" prob="0.8" />
+		<drop event="Harvest" name="cucumber" count="3,6" />
 	</block>
 	<block id="109" name= "tomat1"> 
 		<property name="Class" value="PlantGrowing" />
@@ -541,11 +541,9 @@
 		<property name="Texture" value="298" />
 		<property name="Collide" value="melee" />
 		<property name="IsTerrainDecoration" value="true" />
-		<drop event="Destroy" name="Tomato" count="2" prob="0.8" />
-		<drop event="Harvest" name="Tomato" count="3,6" />
+		<drop event="Destroy" name="tomato" count="2" prob="0.8" />
+		<drop event="Harvest" name="tomato" count="3,6" />
 	</block>
-	
-	
 	<block id="111" name= "strawberry1"> 
 		<property name="Class" value="PlantGrowing" />
 		<property name="Material" value="plants" />
@@ -570,11 +568,416 @@
 		<property name="Texture" value="298" />
 		<property name="Collide" value="melee" />
 		<property name="IsTerrainDecoration" value="true" />
-		<drop event="Destroy" name="Strawberry" count="2" prob="0.8" />
-		<drop event="Harvest" name="Strawberry" count="3,6" />
+		<drop event="Destroy" name="strawberry" count="2" prob="0.8" />
+		<drop event="Harvest" name="strawberry" count="3,6" />
 	</block>
 	
+	<block id="113" name= "jamberry1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="strawberry2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="114" name="jamberry2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="jamberry" count="2" prob="0.8" />
+		<drop event="Harvest" name="jamberry" count="3,6" />
+	</block>
 	
+	<block id="115" name= "onion1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="onion2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="116" name="onion2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="onion" count="2" prob="0.8" />
+		<drop event="Harvest" name="onion" count="3,6" />
+	</block>
+	<block id="117" name= "onionChives1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="onionChives2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="118" name="onionChives2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="onionChives" count="2" prob="0.8" />
+		<drop event="Harvest" name="onionChives" count="3,6" />
+	</block>
+	<block id="119" name= "raspberry1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="raspberry2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="120" name="raspberry2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="raspberry" count="2" prob="0.8" />
+		<drop event="Harvest" name="raspberry" count="3,6" />
+	</block>
+	<block id="121" name= "carrots1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="carrots2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="122" name="carrots2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="carrots" count="2" prob="0.8" />
+		<drop event="Harvest" name="carrots" count="3,6" />
+	</block>
+	<block id="123" name= "olives1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="olives2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="124" name="olives2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="olives" count="2" prob="0.8" />
+		<drop event="Harvest" name="olives" count="3,6" />
+	</block>
+	<block id="125" name= "pepper1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="pepper2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="126" name="pepper2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="pepper" count="2" prob="0.8" />
+		<drop event="Harvest" name="pepper" count="3,6" />
+	</block>
+	<block id="127" name= "pepperСhili1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="pepperСhili2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="128" name="pepperСhili2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="pepperСhili" count="2" prob="0.8" />
+		<drop event="Harvest" name="pepperСhili" count="3,6" />
+	</block>
+	<block id="129" name= "wheat1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="wheat2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="130" name="wheat2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="wheat" count="2" prob="0.8" />
+		<drop event="Harvest" name="wheat" count="3,6" />
+	</block>
+	<block id="131" name= "radish1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="radish2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="132" name="radish2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="radish" count="2" prob="0.8" />
+		<drop event="Harvest" name="radish" count="3,6" />
+	</block>
+	<block id="133" name= "beet1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="beet2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="134" name="beet2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="beet" count="2" prob="0.8" />
+		<drop event="Harvest" name="beet" count="3,6" />
+	</block>
+	<block id="135" name= "currant1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="currant2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="136" name="currant2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="currant" count="2" prob="0.8" />
+		<drop event="Harvest" name="currant" count="3,6" />
+	</block>
+	<block id="137" name= "hops1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="hops2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="138" name="hops2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="hops" count="2" prob="0.8" />
+		<drop event="Harvest" name="hops" count="3,6" />
+	</block>
+	<block id="139" name= "garlic1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="garlic2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="140" name="garlic2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="garlic" count="2" prob="0.8" />
+		<drop event="Harvest" name="garlic" count="3,6" />
+	</block>
+	<block id="141" name= "sweetbrier1"> 
+		<property name="Class" value="PlantGrowing" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="296" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" count="0" />
+		<property class="PlantGrowing">
+			<property name="Next" value="sweetbrier2" />
+			<property name="GrowthRate" value="60" />
+			<property name="FertileLevel" value="5" />
+			<property name="IsRandom" value="false" />
+		</property>
+	</block>
+	<block id="142" name="sweetbrier2">
+		<property name="Class" value="CropsGrown" />
+		<property name="Material" value="plants" />
+		<property name="Shape" value="BillboardPlant" />
+		<property name="Mesh" value="cutoutmoveable" />
+		<property name="Texture" value="298" />
+		<property name="Collide" value="melee" />
+		<property name="IsTerrainDecoration" value="true" />
+		<drop event="Destroy" name="sweetbrier" count="2" prob="0.8" />
+		<drop event="Harvest" name="sweetbrier" count="3,6" />
+	</block>
 	
 	<block id="257" name="blueberrySprout">
       <property name="Class" value="PlantGrowing" />

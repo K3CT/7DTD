@@ -1473,8 +1473,41 @@
   <item name="apatiteOre" x="1972" y="4080" w="116" h="80" />
   <item name="titanOre" x="2088" y="4080" w="116" h="80" />
   <!--Gaia-->
-  <item name="Strawberry" x="0" y="5840" w="116" h="80" />
-  <item name="Cabbage" x="1856" y="5840" w="116" h="80" />
-  <item name="Cucumber" x="2088" y="5840" w="116" h="80" />
-  <item name="Tomato" x="2204" y="5840" w="116" h="80" />
+  <item name="strawberry" x="0" y="5840" w="116" h="80" />
+  <item name="strawberry_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="cabbage" x="1856" y="5840" w="116" h="80" />
+  <item name="cabbage_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="cucumber" x="2088" y="5840" w="116" h="80" />
+  <item name="cucumber_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="tomato" x="2204" y="5840" w="116" h="80" />
+  <item name="tomato_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="jamberry" x="1972" y="5840" w="116" h="80" />
+  <item name="jamberry_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="onion" x="464" y="5840" w="116" h="80" />
+  <item name="onion_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="onionChives" x="580" y="5840" w="116" h="80" />
+  <item name="onionChives_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="raspberry" x="232" y="5840" w="116" h="80" />
+  <item name="raspberry_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="carrots" x="696" y="5840" w="116" h="80" />
+  <item name="carrots_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="olives" x="812" y="5840" w="116" h="80" />
+  <item name="olives_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="pepper" x="928" y="5840" w="116" h="80" />
+  <item name="pepper_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="pepperСhili" x="1044" y="5840" w="116" h="80" />
+  <item name="pepperСhili_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="wheat" x="0" y="3920" w="116" h="80" />
+  <item name="wheat_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="radish" x="1160" y="5840" w="116" h="80" />
+  <item name="radish_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="beet" x="1276" y="5840" w="116" h="80" />
+  <item name="beet_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="currant" x="1392" y="5840" w="116" h="80" />
+  <item name="currant_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="garlic" x="1508" y="5840" w="116" h="80" />
+  <item name="garlic_Seed" x="0" y="3920" w="116" h="80" />
+  <item name="sweetbrier" x="1624" y="5840" w="116" h="80" />
+  <item name="sweetbrier_Seed" x="0" y="3920" w="116" h="80" />
+  
 </items>

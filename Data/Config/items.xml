@@ -2028,7 +2028,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="229" name="cornSeed">
-        <property name="Meshfile" value="Items/Food/seed_corn" />
+        <property name="Meshfile" value="Items/Food/Seed_corn" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -2068,7 +2068,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="231" name="potatoSeed">
-        <property name="Meshfile" value="Items/Food/seed_potato_quartersPrefab" />
+        <property name="Meshfile" value="Items/Food/Seed_potato_quartersPrefab" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -2108,7 +2108,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="233" name="blueberrySeed">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Meshfile" value="Items/Food/Seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -4739,7 +4739,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="390" name="coffeeBeans">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Meshfile" value="Items/Food/Seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property name="Stacknumber" value="250" />
@@ -5609,7 +5609,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="621" name="pineSeed">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Meshfile" value="Items/Food/Seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -5626,7 +5626,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="622" name="mapleSeed">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Meshfile" value="Items/Food/Seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -5978,7 +5978,7 @@ ARMOR ATTRIBUTE EXAMPLE
         </property>
     </item>
     <item id="634" name="cottonSeed">
-        <property name="Meshfile" value="Items/Food/seed_blueberry" />
+        <property name="Meshfile" value="Items/Food/Seed_blueberry" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -6256,7 +6256,7 @@ ARMOR ATTRIBUTE EXAMPLE
         <property name="Group" value="Ammo/Weapons" />
     </item>
     <item id="645" name="goldenrodSeed">
-        <property name="Meshfile" value="Items/Food/seed_corn" />
+        <property name="Meshfile" value="Items/Food/Seed_corn" />
         <property name="Material" value="organic" />
         <property name="HoldType" value="21" />
         <property class="Action1">
@@ -8229,7 +8229,7 @@ ARMOR ATTRIBUTE EXAMPLE
 
 
 
-	<item id="1000" name="Cabbage">
+	<item id="1000" name="cabbage">
 		<property name="Meshfile" value="Items/Food/vegetable_corn" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="15" />
@@ -8249,9 +8249,9 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1001" name="Cabbage_Seed">
+	<item id="1001" name="cabbage_Seed">
 		<property name="Stacknumber" value="250" />
-		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="21" />
 		<property class="Action1">
@@ -8259,14 +8259,14 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Delay" value="0.5" />
 			<property name="Blockname" value="cabbage1" />
 		</property>
-		<property name="Group" value="Resources" />
+		<property name="Group" value="Food/Cooking" />
 		<property class="Preview">
-			<property name="Zoom" value="35" />
-			<property name="Pos" value="0,-0.05" />
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.02" />
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1002" name="Cucumber">
+	<item id="1002" name="cucumber">
 		<property name="Meshfile" value="Items/Food/vegetable_corn" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="15" />
@@ -8286,9 +8286,9 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1003" name="Cucumber_Seed">
+	<item id="1003" name="cucumber_Seed">
 		<property name="Stacknumber" value="250" />
-		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="21" />
 		<property class="Action1">
@@ -8296,14 +8296,14 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Delay" value="0.5" />
 			<property name="Blockname" value="cucumber1" />
 		</property>
-		<property name="Group" value="Resources" />
+		<property name="Group" value="Food/Cooking" />
 		<property class="Preview">
 			<property name="Zoom" value="35" />
 			<property name="Pos" value="0,-0.05" />
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1004" name="Tomato">
+	<item id="1004" name="tomato">
 		<property name="Meshfile" value="Items/Food/vegetable_potato" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="15" />
@@ -8323,9 +8323,9 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1005" name="Tomato_Seed">
+	<item id="1005" name="tomato_Seed">
 		<property name="Stacknumber" value="250" />
-		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="21" />
 		<property class="Action1">
@@ -8333,14 +8333,14 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Delay" value="0.5" />
 			<property name="Blockname" value="tomat1" />
 		</property>
-		<property name="Group" value="Resources" />
+		<property name="Group" value="Food/Cooking" />
 		<property class="Preview">
 			<property name="Zoom" value="35" />
 			<property name="Pos" value="0,-0.05" />
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1006" name="Strawberry">
+	<item id="1006" name="strawberry">
 		<property name="Meshfile" value="Items/Food/vegetable_potato" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="15" />
@@ -8360,9 +8360,9 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="1007" name="Strawberry_Seed">
+	<item id="1007" name="strawberry_Seed">
 		<property name="Stacknumber" value="250" />
-		<property name="Meshfile" value="Items/Food/seed_blueberry" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
 		<property name="Material" value="organic" />
 		<property name="HoldType" value="21" />
 		<property class="Action1">
@@ -8370,7 +8370,562 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Delay" value="0.5" />
 			<property name="Blockname" value="strawberry1" />
 		</property>
-		<property name="Group" value="Resources" />
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1008" name="jamberry">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1009" name="jamberry_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="jamberry1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1010" name="onion">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1011" name="onion_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="onion1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1012" name="onionChives">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1013" name="onionChives_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="onionChives1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1014" name="raspberry">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1015" name="raspberry_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="raspberry1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1016" name="carrots">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1017" name="carrots_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="carrots1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1018" name="olives">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1019" name="olives_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="olives1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1020" name="pepper">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1021" name="pepper_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="pepper1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1022" name="pepperСhili">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1023" name="pepperСhili_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="pepperСhili1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1024" name="wheat">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1025" name="wheat_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="wheat1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1026" name="radish">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1027" name="radish_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="radish1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1028" name="beet">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1029" name="beet_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="beet1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1030" name="currant">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1031" name="currant_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="currant1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1032" name="hops">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1033" name="hops_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="hops1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1034" name="garlic">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1035" name="garlic_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="garlic1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="35" />
+			<property name="Pos" value="0,-0.05" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1036" name="sweetbrier">
+		<property name="Meshfile" value="Items/Food/vegetable_potato" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="15" />
+		<property class="Action1">
+			<property name="Class" value="Eat" />
+			<property name="Delay" value="1.0" />
+			<property name="Use_time" value="..." />
+			<property name="Gain_health" value="0" />
+			<property name="Gain_food" value="2" />
+			<property name="Gain_water" value="2" />
+			<property name="Sound_start" value="UseActions/player_eating" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
+		<property class="Preview">
+			<property name="Zoom" value="28" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="1037" name="sweetbrier_Seed">
+		<property name="Stacknumber" value="250" />
+		<property name="Meshfile" value="Items/Food/Seed_blueberry" />
+		<property name="Material" value="organic" />
+		<property name="HoldType" value="21" />
+		<property class="Action1">
+			<property name="Class" value="PlaceAsBlock" />
+			<property name="Delay" value="0.5" />
+			<property name="Blockname" value="sweetbrier1" />
+		</property>
+		<property name="Group" value="Food/Cooking" />
 		<property class="Preview">
 			<property name="Zoom" value="35" />
 			<property name="Pos" value="0,-0.05" />

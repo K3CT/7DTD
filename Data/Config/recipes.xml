@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <recipes>
-    <recipe name="Cabbage_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="Cabbage" count="1" grid="0, 0"/>
+    <recipe name="cabbage_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="cabbage" count="1" grid="0, 0"/>
     </recipe>
-    <recipe name="Cucumber_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="Cucumber" count="1" grid="0, 0"/>
+    <recipe name="cucumber_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="cucumber" count="1" grid="0, 0"/>
     </recipe>
-    <recipe name="Tomato_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="Tomato" count="1" grid="0, 0"/>
+    <recipe name="tomato_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="tomato" count="1" grid="0, 0"/>
     </recipe>
-    <recipe name="Strawberry_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="Strawberry" count="1" grid="0, 0"/>
+    <recipe name="strawberry_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="strawberry" count="1" grid="0, 0"/>
     </recipe>
 
     <recipe name="porkCharred" count="1" scrapable="False" craft_area="campfire" craft_tool="stick" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
