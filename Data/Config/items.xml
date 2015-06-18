@@ -8932,4 +8932,127 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
+
+	
+<!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots-->
+	<item id="3450" name="goldIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Gold" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3451" name="silverIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Silver" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3452" name="aluminiumIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Aluminum" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3453" name="sulphurIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Sulphur" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3454" name="nickelIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Nickel" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3455" name="manganeseIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Manganese" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3456" name="titanIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Titan" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3457" name="tinIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="tin" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3458" name="zincIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Zinc" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
+	<item id="3459" name="chromeIngot">
+		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
+		<property name="Material" value="Chrome" />
+		<property name="HoldType" value="21" />
+		<property name="Weight" value="48" />
+		<property name="Group" value="Resources" />
+		<property class="Preview">
+			<property name="Zoom" value="10" />
+			<property name="Pos" value="0,-0.2" />
+			<property name="Rot" value="90,45,0" />
+		</property>
+	</item>
 </items>

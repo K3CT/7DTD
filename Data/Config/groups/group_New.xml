@@ -49,4 +49,14 @@
 <!--Weapons-->
 <!--Cothes-->
 <!--Metall-->
+	<item name="goldIngot" />
+	<item name="silverIngot" />
+	<item name="aluminiumIngot" />
+	<item name="sulphurIngot" />
+	<item name="nickelIngot" />
+	<item name="manganeseIngot" />
+	<item name="titanIngot" />
+	<item name="tinIngot" />
+	<item name="zincIngot" />
+	<item name="chromeIngot" />
 </group>

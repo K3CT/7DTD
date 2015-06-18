@@ -608,15 +608,15 @@
   <item name="iceSickle" x="1508" y="1360" w="116" h="80" />
   <item name="indianStorageChest" x="1624" y="1360" w="116" h="80" />
   <item name="ingotBrass" x="1740" y="1360" w="116" h="80" />
-  <item name="ingotCopper" x="1856" y="1360" w="116" h="80" />
+<!--  <item name="ingotCopper" x="1856" y="1360" w="116" h="80" />
   <item name="ingotIron" x="1972" y="1360" w="116" h="80" />
-  <item name="ingotLead" x="2088" y="1360" w="116" h="80" />
+  <item name="ingotLead" x="2088" y="1360" w="116" h="80" />-->
   <item name="IngotMoldBrass" x="2204" y="1360" w="116" h="80" />
   <item name="IngotMoldCopper" x="2320" y="1360" w="116" h="80" />
   <item name="IngotMoldIron" x="2436" y="1360" w="116" h="80" />
   <item name="IngotMoldLead" x="2552" y="1360" w="116" h="80" />
   <item name="IngotMoldTungsten" x="2668" y="1360" w="116" h="80" />
-  <item name="ingotTungsten" x="2784" y="1360" w="116" h="80" />
+<!--<item name="ingotTungsten" x="2784" y="1360" w="116" h="80" />-->
   <item name="insideCornerWedgeAsphaltShingle" x="2900" y="1360" w="116" h="80" />
   <item name="insideCornerWedgeClayRoof" x="3016" y="1360" w="116" h="80" />
   <item name="insideCornerWedgeGreenMetalRoof" x="3132" y="1360" w="116" h="80" />
@@ -1455,23 +1455,37 @@
   <item name="stone"             x="0"    y="4000" w="116" h="80" />
   <item name="coalOre"           x="0"    y="4080" w="116" h="80" />
   <item name="copperOre"         x="116"  y="4080" w="116" h="80" />
+  <item name="ingotCopper"       x="116"  y="4160" w="116" h="80" />
   <item name="tinOre"            x="232"  y="4080" w="116" h="80" />
+  <item name="tinIngot"          x="232"  y="4160" w="116" h="80" />
   <item name="zincOre"           x="348"  y="4080" w="116" h="80" />
+  <item name="zincIngot"         x="348"  y="4160" w="116" h="80" />
   <item name="aluminiumOre"      x="464"  y="4080" w="116" h="80" />
+  <item name="aluminiumIngot"    x="464"  y="4160" w="116" h="80" />
   <item name="leadOre"           x="580"  y="4080" w="116" h="80" />
+  <item name="ingotLead"         x="580"  y="4160" w="116" h="80" />
   <item name="ironOre"           x="696"  y="4080" w="116" h="80" />
+  <item name="ingotIron"         x="696"  y="4160" w="116" h="80" />
   <item name="goldOre"           x="812"  y="4080" w="116" h="80" />
+  <item name="goldIngot"         x="812"  y="4160" w="116" h="80" />
   <item name="silverOre"         x="928"  y="4080" w="116" h="80" />
+  <item name="silverIngot"       x="928"  y="4160" w="116" h="80" />
   <item name="sulphurOre"        x="1044" y="4080" w="116" h="80" />
+  <item name="sulphurIngot"      x="1044" y="4160" w="116" h="80" />
   <item name="tungstenOre"       x="1160" y="4080" w="116" h="80" />
+  <item name="ingotTungsten"     x="1160" y="4160" w="116" h="80" />
   <item name="chromeOre"         x="1276" y="4080" w="116" h="80" />
+  <item name="chromeIngot"       x="1276" y="4160" w="116" h="80" />
   <item name="nickelOre"         x="1392" y="4080" w="116" h="80" />
+  <item name="nickelIngot"       x="1392" y="4160" w="116" h="80" />
   <item name="manganeseOre"      x="1508" y="4080" w="116" h="80" />
+  <item name="manganeseIngot"    x="1508" y="4160" w="116" h="80" />
   <item name="limestoneOre"      x="1624" y="4080" w="116" h="80" />
   <item name="marbleOre"         x="1740" y="4080" w="116" h="80" />
   <item name="quarzOre"          x="1856" y="4080" w="116" h="80" />
   <item name="apatiteOre"        x="1972" y="4080" w="116" h="80" />
   <item name="titanOre"          x="2088" y="4080" w="116" h="80" />
+  <item name="titanIngot"        x="464"  y="4160" w="116" h="80" />
   <!--Gaia-->
   <item name="strawberry"        x="0"    y="5840" w="116" h="80" />
   <item name="strawberry_Seed"   x="0"    y="3920" w="116" h="80" />
