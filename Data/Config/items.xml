@@ -8934,7 +8934,7 @@ ARMOR ATTRIBUTE EXAMPLE
 	</item>
 
 	
-<!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots-->
+<!--Ingots--><!--Mold--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots--><!--Ingots-->
 	<item id="3450" name="goldIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Gold" />
