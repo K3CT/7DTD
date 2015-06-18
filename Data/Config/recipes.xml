@@ -113,7 +113,7 @@
         <ingredient name="bottledWater" count="1"/>
     </recipe>
 
-    <recipe name="goldenRodTea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="30" craft_exp_gain="2" learn_exp_gain="20" >
+    <recipe name="goldenRodTea" count="1" scrapable="False" craft_area="campfire" craft_tool="cookingPot" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="goldenrod" count="1"/>
         <ingredient name="bottledWater" count="1"/>
     </recipe>
