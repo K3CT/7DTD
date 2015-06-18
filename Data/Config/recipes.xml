@@ -54,9 +54,7 @@
     <recipe name="sweetbrier_Seed" count="3" scrapable="False" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="sweetbrier" count="1" grid="0, 0"/>
     </recipe>
-    <recipe name="blueberrySeed" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
-        <ingredient name="blueberries" count="1" grid="0, 0"/>
-    </recipe>
+
 
 
 
@@ -326,6 +324,10 @@
         <ingredient name="cloth" count="1" grid="0, 2"/>
         <ingredient name="cloth" count="1" grid="1, 2"/>
         <ingredient name="cloth" count="1" grid="2, 2"/>
+    </recipe>
+
+    <recipe name="blueberrySeed" count="1" scrapable="False" craft_time="1" craft_exp_gain="2" learn_exp_gain="20" >
+        <ingredient name="blueberries" count="1" grid="0, 0"/>
     </recipe>
 
     <recipe name="blunderbuss" count="1" scrapable="False" craft_time="15" craft_exp_gain="2" learn_exp_gain="20" >
