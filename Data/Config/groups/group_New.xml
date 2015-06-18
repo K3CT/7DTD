@@ -50,13 +50,23 @@
 <!--Cothes-->
 <!--Metall-->
 	<item name="goldIngot" />
+	<item name="IngotMoldGold" />
 	<item name="silverIngot" />
+	<item name="IngotMoldSilver" />
 	<item name="aluminiumIngot" />
+	<item name="IngotMoldAluminium" />
 	<item name="sulphurIngot" />
+	<item name="IngotMoldSulphur" />
 	<item name="nickelIngot" />
+	<item name="IngotMoldNickel" />
 	<item name="manganeseIngot" />
+	<item name="IngotMoldManganese" />
 	<item name="titanIngot" />
+	<item name="IngotMoldTitan" />
 	<item name="tinIngot" />
+	<item name="IngotMoldTin" />
 	<item name="zincIngot" />
+	<item name="IngotMoldZinc" />
 	<item name="chromeIngot" />
+	<item name="IngotMoldChrome" />
 </group>

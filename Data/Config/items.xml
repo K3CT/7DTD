@@ -8947,7 +8947,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3451" name="silverIngot">
+    <item id="3451" name="IngotMoldGold">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="goldIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3452" name="silverIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Silver" />
 		<property name="HoldType" value="21" />
@@ -8959,7 +8972,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3452" name="aluminiumIngot">
+    <item id="3453" name="IngotMoldSilver">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="silverIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3454" name="aluminiumIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Aluminum" />
 		<property name="HoldType" value="21" />
@@ -8971,7 +8997,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3453" name="sulphurIngot">
+    <item id="3455" name="IngotMoldAluminium">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="aluminiumIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3456" name="sulphurIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Sulphur" />
 		<property name="HoldType" value="21" />
@@ -8983,7 +9022,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3454" name="nickelIngot">
+    <item id="3457" name="IngotMoldSulphur">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="sulphurIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3458" name="nickelIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Nickel" />
 		<property name="HoldType" value="21" />
@@ -8995,7 +9047,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3455" name="manganeseIngot">
+    <item id="3459" name="IngotMoldNickel">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="nickelIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3460" name="manganeseIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Manganese" />
 		<property name="HoldType" value="21" />
@@ -9007,7 +9072,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3456" name="titanIngot">
+    <item id="3461" name="IngotMoldManganese">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="manganeseIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3462" name="titanIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Titan" />
 		<property name="HoldType" value="21" />
@@ -9019,7 +9097,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3457" name="tinIngot">
+    <item id="3463" name="IngotMoldTitan">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="titanIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3464" name="tinIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="tin" />
 		<property name="HoldType" value="21" />
@@ -9031,7 +9122,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3458" name="zincIngot">
+    <item id="3465" name="IngotMoldTin">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="tinIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3466" name="zincIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Zinc" />
 		<property name="HoldType" value="21" />
@@ -9043,7 +9147,20 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
-	<item id="3459" name="chromeIngot">
+    <item id="3467" name="IngotMoldZinc">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="zincIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
+	<item id="3468" name="chromeIngot">
 		<property name="Meshfile" value="Items/Crafting/ingotAluminum" />
 		<property name="Material" value="Chrome" />
 		<property name="HoldType" value="21" />
@@ -9055,4 +9172,17 @@ ARMOR ATTRIBUTE EXAMPLE
 			<property name="Rot" value="90,45,0" />
 		</property>
 	</item>
+    <item id="3469" name="IngotMoldChrome">
+        <property name="Meshfile" value="Items/Crafting/mold" />
+        <property name="Material" value="metal" />
+        <property name="HoldType" value="21" />
+        <property name="Stacknumber" value="1" />
+        <property name="MoldTarget" value="chromeIngot" />
+        <property name="Group" value="Forging/Molds" />
+        <property class="Preview">
+            <property name="Zoom" value="18" />
+            <property name="Pos" value="0.1,0" />
+            <property name="Rot" value="10,-45,0" />
+        </property>
+    </item>
 </items>

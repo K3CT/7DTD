@@ -55,6 +55,17 @@
         <ingredient name="sweetbrier" count="1" grid="0, 0"/>
     </recipe>
 
+
+
+
+
+
+
+
+
+
+
+
     <recipe name="porkCharred" count="1" scrapable="False" craft_area="campfire" craft_tool="stick" craft_time="10" craft_exp_gain="2" learn_exp_gain="20" >
         <ingredient name="pork" count="1"/>
     </recipe>
