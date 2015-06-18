@@ -450,7 +450,25 @@
 		<item name="cornSeed"/>
 		<item name="blueberrySeed"/>
 		<item name="coffeeBeans" />
-    </lootgroup>    
+		<item name="cabbage_Seed" />
+		<item name="tomato_Seed" />
+		<item name="cucumber_Seed" />
+		<item name="strawberry_Seed" />
+		<item name="jamberry_Seed" />
+		<item name="onion_Seed" />
+		<item name="onionChives_Seed" />
+		<item name="raspberry_Seed" />
+		<item name="carrots_Seed" />
+		<item name="olives_Seed" />
+		<item name="pepper_Seed" />
+		<item name="pepperСhili_Seed" />
+		<item name="wheat_Seed" />
+		<item name="radish_Seed" />
+		<item name="beet_Seed" />
+		<item name="currant_Seed" />
+		<item name="garlic_Seed" />
+		<item name="sweetbrier_Seed" />
+	</lootgroup>    
     
 	<lootgroup name="airdropfood">		
 		<item name="canBeef"/>
@@ -1209,5 +1227,7 @@
 		<item group="gunparts" prob="0.5" />	
 		
     </lootcontainer>	
-  
+
+
+	
 </lootcontainers>
